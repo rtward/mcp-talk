@@ -1,4 +1,4 @@
-% Model Context Protocol
+% MCP and You
 % Robert Ward <robert@rtward.com>
 %![](static/qrcode.png)<br/>Talk: [${TALK_URL}](${TALK_URL})<br/>Repo: [${REPO_URL}](${REPO_URL})
 
@@ -44,35 +44,29 @@ Emphasize that MCP is not just another API - it's a protocol designed specifical
 ## MCP Components
 
 **MCP Server**:
-- Exposes resources and tools
-- Handles authentication
-- Manages data access
+ - Exposes resources and tools
+ - Handles authentication
+ - Manages data access
 
 ## MCP Components
 
 **MCP Client**:
-- AI application or assistant
-- Makes requests to servers
-- Processes responses
+ - AI application or assistant
+ - Makes requests to servers
+ - Processes responses
 
 ## MCP Components
 
 **Transport Layer**:
-- JSON-RPC over stdio, HTTP, or WebSockets
-- Standardized message format
+ - JSON-RPC over stdio, HTTP, or WebSockets
+ - Standardized message format
 
 ## Resource Types
 
-- **Resources** - Read-only data (files, databases, APIs)
-- **Tools** - Executable functions (scripts, commands)
-- **Prompts** - Reusable prompt templates
-- **Completions** - AI model completions
-
-::: notes
-
-Draw a simple diagram on the whiteboard showing the client-server relationship and data flow.
-
-:::
+ - **Resources** - Read-only data (files, databases, APIs)
+ - **Tools** - Executable functions (scripts, commands)
+ - **Prompts** - Reusable prompt templates
+ - **Completions** - AI model completions
 
 # Building with MCP
 
@@ -185,6 +179,12 @@ Go to Settings > Developer > Edit Config
 ```
 
 # Demo Time
+
+# The Future
+
+## Elicitation
+
+Allow the MCP to request clarification from the user
 
 # Questions & Discussion
 
